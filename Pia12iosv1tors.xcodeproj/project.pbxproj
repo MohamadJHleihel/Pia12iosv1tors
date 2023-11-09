@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9760D3662AFD4B03001C2821 /* DocodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9760D3652AFD4B03001C2821 /* DocodeView.swift */; };
 		97961AC52AFB6FD90049A084 /* Pia12iosv1torsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97961AC42AFB6FD90049A084 /* Pia12iosv1torsApp.swift */; };
 		97961AC72AFB6FD90049A084 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97961AC62AFB6FD90049A084 /* ContentView.swift */; };
 		97961AC92AFB6FDC0049A084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97961AC82AFB6FDC0049A084 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9760D3652AFD4B03001C2821 /* DocodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocodeView.swift; sourceTree = "<group>"; };
 		97961AC12AFB6FD90049A084 /* Pia12iosv1tors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pia12iosv1tors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97961AC42AFB6FD90049A084 /* Pia12iosv1torsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pia12iosv1torsApp.swift; sourceTree = "<group>"; };
 		97961AC62AFB6FD90049A084 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +37,7 @@
 		97961AB82AFB6FD90049A084 = {
 			isa = PBXGroup;
 			children = (
+				9760D3652AFD4B03001C2821 /* DocodeView.swift */,
 				97961AC32AFB6FD90049A084 /* Pia12iosv1tors */,
 				97961AC22AFB6FD90049A084 /* Products */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9760D3662AFD4B03001C2821 /* DocodeView.swift in Sources */,
 				97961AC72AFB6FD90049A084 /* ContentView.swift in Sources */,
 				97961AC52AFB6FD90049A084 /* Pia12iosv1torsApp.swift in Sources */,
 			);
