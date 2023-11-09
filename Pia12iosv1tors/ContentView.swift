@@ -39,6 +39,12 @@ struct ContentView: View {
             } , label: {
                 Text("Minus")
             })
+            
+            Button(action: {
+                doprocent()
+            } , label: {
+                Text("procent")
+            })
             Spacer()
             
             Button(action: {
@@ -95,6 +101,11 @@ struct ContentView: View {
             if let fancynumber = Int(inputnumber){
                 resultnumber = resultnumber - fancynumber
             }
+        }
+    }
+    func doprocent () {
+        if let procentnumber = Int(inputnumber){
+            resultnumber = resultnumber * procentnumber / 100
         }
     }
 }
